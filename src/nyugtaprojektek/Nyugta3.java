@@ -53,13 +53,11 @@ public class Nyugta3 {
         szaggatottVonal();
         
         System.out.println("");
-        String rovidVonal = "_______";
-        System.out.print(rovidVonal);
-        String rovidVonalValaszto = "      ";
-        System.out.print(rovidVonalValaszto);
-        System.out.println(rovidVonal);
+        System.out.print("_______");
+        rovidVonalValaszto();
+        rovidVonal();
         System.out.print(" Dátum");
-        System.out.print(rovidVonalValaszto);
+        rovidVonalValaszto();
         System.out.println("   Név");
         
         csillagok();    
@@ -78,8 +76,18 @@ public class Nyugta3 {
     }
     
     private static void szaggatottVonal() {
-        String duplaVonal = "--------------------";
-        System.out.println(duplaVonal);
+        String szaggatottVonal = "--------------------";
+        System.out.println(szaggatottVonal);
+    }
+    
+    private static void rovidVonal() {
+        String rovidVonal = "_______";
+        System.out.println(rovidVonal);
+    }
+    
+    private static void rovidVonalValaszto() {
+        String rovidVonalValaszto = "      ";
+        System.out.print(rovidVonalValaszto);
     }
 
 }
